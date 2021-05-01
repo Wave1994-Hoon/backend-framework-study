@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.34.0'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
