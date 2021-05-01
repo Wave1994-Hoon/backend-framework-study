@@ -1,4 +1,4 @@
-package com.study.chapter2.database;
+package com.study.chapter2.transaction;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

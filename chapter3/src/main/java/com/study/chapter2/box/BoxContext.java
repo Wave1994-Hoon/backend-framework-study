@@ -13,7 +13,7 @@ public class BoxContext {
         threadLocal.remove();
     }
 
-    public static Box getThread() {
+    public static Box getThreadLocal() {
         return getBox();
     }
 

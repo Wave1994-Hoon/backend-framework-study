@@ -1,4 +1,4 @@
-package com.study.chapter2.database;
+package com.study.chapter2.transaction;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -10,9 +10,6 @@ import java.util.ArrayList;
 * 2. SQL 에 필요한 기능 생성 --> PreparedStatement, Statement, ResultSet
 * 3. Connection close
 * 4. 트랙잭션 상태 제어
-*
-*
-*
 * */
 
 public abstract class Transaction {

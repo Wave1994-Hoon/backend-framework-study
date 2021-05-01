@@ -7,7 +7,7 @@ public class Welcome {
 
     public String execute() {
 
-        Box box = BoxContext.getThread();
+        Box box = BoxContext.getThreadLocal();
 
         String NAME = box.get("NAME").toString();
         String MESSAGE = "WELCOME = " + NAME;
