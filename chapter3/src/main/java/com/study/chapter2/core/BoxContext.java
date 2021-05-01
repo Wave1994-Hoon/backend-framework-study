@@ -1,4 +1,4 @@
-package com.study.chapter2;
+package com.study.chapter2.core;
 
 import com.study.chapter2.box.Box;
 import com.study.chapter2.box.BoxLocal;

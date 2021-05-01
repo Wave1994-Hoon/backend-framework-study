@@ -1,4 +1,4 @@
-package com.study.chapter2;
+package com.study.chapter2.core;
 
 import com.study.chapter2.transaction.Transaction;
 import com.study.chapter2.transaction.TransactionSQLiteJdbc;
