@@ -1,7 +1,6 @@
 package com.study.chapter2;
 
 import com.study.chapter2.box.Box;
-import com.study.chapter2.box.BoxContext;
 
 public class Welcome {
 

@@ -1,5 +1,6 @@
 package com.study.chapter2.transaction;
 
+import javax.naming.NamingException;
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -22,7 +23,7 @@ public abstract class Transaction {
 
     private boolean isAutoCommit = false;
 
-    protected abstract Connection createConnection() throws SQLException;
+    protected abstract Connection createConnection() throws SQLException, NamingException;
 
     void close() throws SQLException {
 

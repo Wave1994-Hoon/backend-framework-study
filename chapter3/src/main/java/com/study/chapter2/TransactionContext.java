@@ -1,4 +1,7 @@
-package com.study.chapter2.transaction;
+package com.study.chapter2;
+
+import com.study.chapter2.transaction.Transaction;
+import com.study.chapter2.transaction.TransactionSQLiteJdbc;
 
 import java.sql.SQLException;
 
